@@ -10,10 +10,45 @@ Modify the number of repetitions in the simulation to 1000 (from the original 50
 
 Alter the code so that it is reproducible. Describe the changes you made to the code and how they affected the reproducibility of the script file. The output does not need to match Whitby’s original blogpost/graphs, it just needs to produce the same output when run multiple times
 
-# Author: YOUR NAME
+# Author: Panpan Wang
 
 ```
 Please write your explanation here...
+
+Examine the code in `whitby_covid_tracing.py`. Identify all stages at which sampling is occurring in the model. Describe in words the sampling procedure, referencing the functions used, sample size, sampling frame, any underlying distributions involved, and how these relate to the procedure outlined in the blog post.
+
+First sampling occorring in the model is simple randam sampling. 
+Functions used is infected_indices = np.random.choice(ppl.index, size=int(len(ppl) * ATTACK_RATE), replace=False)
+Sample size is 10% of the total population of 1000 individuals, so 100 individuals
+Sampling frame is 1000 individuals who at the event
+Underlying distributions involved is random samplying without replacement
+Outlined in the blog post :Suppose that exactly 10% of people at every event are infected, regardless of the type of event. 
+
+Second sampling occorring in the model is stratified sampling.
+Functions used is ppl.loc[ppl['infected'], 'traced'] = np.random.rand(sum(ppl['infected'])) < TRACE_SUCCESS
+Sample size is 20% of the infected individuals
+Sampling frame is all infected individuals
+Outlined in the blog post: an infection has only a 20% chance of being traced to a source event. Call that “primary contact tracing.”
+
+
+Run the Python script file called whitby_covid_tracing.py as is and compare the results to the graphs in the original blog post. Does this code appear to reproduce the graphs from the original blog post?
+
+No, this code is not reproduce the graphs from the original blog post.
+
+Modify the number of repetitions in the simulation to 1000 (from the original 50000). Run the script multiple times and observe the outputted graphs. Comment on the reproducibility of the results.
+
+I have changed the simulation to 1000 and run the script multiple times. The resluts are not reproduce the graphs every times.
+
+
+Alter the code so that it is reproducible. Describe the changes you made to the code and how they affected the reproducibility of the script file. The output does not need to match Whitby’s original blogpost/graphs, it just needs to produce the same output when run multiple times
+
+I have modifed the code to set the random seed for both numpy and random libraries to make sure to produce the same output when run multiple times.
+
+import random
+
+# Set the random seed for reproducibility
+np.random.seed(10)
+random.seed(10)
 
 ```
 

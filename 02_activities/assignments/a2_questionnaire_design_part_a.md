@@ -16,26 +16,59 @@ Select one of the scenarios below and design a survey to meet the need(s) outlin
 
 # Your Changes
 
-The number of your chosen topic: `#`
+The number of your chosen topic: `#1`
 
 Describe the purpose of your survey:
-```
+
 write your answer here...
+The purpose of my survey is to understand the reasons behind the hight turnover rate across many of the departments, specifically within the entry- and lower-level positions. From the results of my survey, I can do an analysis of the problems and possible solution for imporve the employee satisfaction to reduce the turnover rate.
 ```
 
 Describe your target population, sampling frame, sampling units, and observational units:
 ```
 write your answer here...
+Target population is all current entry and lower-level positions in all departments and departed employees.
+Sampling frame is curent entry and lower-level positions employee in all departments and departed employees I have email with.
+Sampling units is individual current working in entry and lower-level positions in all departments and departed employees I have email with.
+Overall sampling strategy is A combination of stratified random sampling (to ensure representation from various departments) and convenience sampling (focusing on recently departed employees willing to participate).
 ```
+
 
 Your 5-10 question survey:
 ```
-1. write your question here...
-2. write your question here...
-3. write your question here...
-4. write your question here...
-5. write your question here...
-6. write your question here... (optional)
+1. What department do you (did you) work in?
+
+2. How long have you been (or were you) employed with the company?
+a. Less than 6 months
+b. 6 months to 1 year
+c. 1 year to 3 years
+d. 4 years to 6 years
+e. More than 7 years
+
+
+3. On a scale of 1 to 5, how satisfied are you (were you) with your job role and responsibilities?
+1 (Very Dissatisfied)
+2 (Dissatisfied)
+3 (Neutral)
+4 (Satisfied)
+5 (Very Satisfied)
+
+4. What are (were) the primary reasons for your job dissatisfaction? (Select all that apply)
+a. Career Development
+b. Compensation
+c. Work Life Balasnce
+d. Lack of Recognition from management
+e. Other(please specify)
+
+5. How supportive do you find (did you find) the management in your department?
+a. Very supportive
+b. Supportive
+c. Neutral
+e. Unsupportive
+f. Very unsupportive
+
+6. If you are a member of the management team, what actions would you suggest to improve job satisfaction? (Open-ended)
+
 7. write your question here... (optional)
 8. write your question here... (optional)
 9. write your question here... (optional)
