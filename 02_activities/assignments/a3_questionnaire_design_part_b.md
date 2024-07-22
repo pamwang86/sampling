@@ -4,19 +4,25 @@
 1. Comment on the quality of your sample. Do you expect it to be representative of your target population? Why or why not?
 
     ```
-    write your answer here...
-    ```
+I think the quality of my sample has coverage error—under coverage. In my survey, the sampling frame is current entry-level and lower-level employees in all departments and departed employees for whom I have email addresses. The target population is all current entry-level and lower-level positions in all departments and departed employees. I don't expect it to be representative of my target population because I am missing the current entry-level and lower-level employees in all departments and departed employees I don't have email addresses for.
+    ``` 
 
 2. Given the class content (error, survey quality, ethics) covered since Part A of the assignment, do you wish to make any changes to your original survey? If so, make a copy of your original survey and make any desired changes. Describe the changes and your reasoning. Provide a link here for submission.
 
     ```
-    write your answer here...
+No, I don't want to make any changes to my original survey. Although my sample has a coverage error—under coverage issue—I am missing current entry-level and lower-level employees in all departments and departed employees I don't have email addresses for, but there is nothing that can be improved by changing my original survey.
+
+From the quality point of view, my survey is relevant, accurate, timely, and accessible.
+
+From an ethics point of view, the respondent burden is low.
+
     ```
 
 3. Could the purpose of your survey have been fulfilled through an observational study? If yes, how? If no, why not?
 
     ```
-    write your answer here...
+  No, my survey is looking for specific information directly from employees, such as their department, length of employment, job satisfaction levels, reasons for dissatisfaction, and perceptions of management support. These subjective insights are difficult to capture through observation alone.
+    
     ```
 
 ## Why am I doing this assignment?
